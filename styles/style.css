@@ -1,12 +1,48 @@
-
-
-.header{
-    padding: 2% 0% 0% 2%;
+* {
+    margin= 0%;
+    padding= 0%;
 }
 
-.header__logo{
-    display: flex;
-    gap: 40px;
+:root{
+    --color-background: #f3f5fc;
+    --color-texto: #0a3871;
+}
+
+.header{
+    background: var(--color-background);
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-background);
+}
+
+.texto{
+    position: absolute;
+    width: 42%;
+    height: 60%;
+    left: 12%;
+    top: 15%;
+    border: none;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: var(--color-background);
+}
+
+.texto::placeholder{
+    color: var(--color-texto)
+    
+}
+
+.texto:focus,
+.texto:active{
+    border: none;
+    outline: none;
 }
 
 .footer{
@@ -17,4 +53,5 @@
     font-family: var(--fuente-montserrat);
     font-size: 1.5rem;
     font-weight: 400;
+    background: var(--color-primario);
 }
