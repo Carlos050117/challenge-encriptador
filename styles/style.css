@@ -15,7 +15,14 @@
 }
 
 .header{
+    display: flex;
     background: var(--color-background);
+    padding: 2% 0% 0% 2%;
+}
+
+.header img{
+    width: 6%;
+    top: 15%;
 }
 
 .container{
@@ -42,7 +49,6 @@
 
 .texto::placeholder{
     color: var(--color-texto1)
-    
 }
 
 .texto:focus,
@@ -85,6 +91,7 @@
     width: 80%;
     left: 12%;
     top: 82%;
+    gap: 24px;
 }
 
 .button__encriptar{
@@ -109,7 +116,6 @@
     align-items: flex-start;
     justify-content: center;
     padding: 2%;
-    gap: 8px;
     width: 25%;
     background-color: var(--color-button-desencriptar);
     border: 1px solid var(--color-texto1);
@@ -134,9 +140,9 @@
     justify-content: center;
     position: absolute;
     width: 30%;
-    height: 90%;
+    height: 95%;
     left: 60%;
-    top: 5%;
+    top: 0%;
     background-color: #ffffff;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
@@ -182,4 +188,72 @@
     width: 80%;
     height: 50%;
     top: 15%;
+}
+
+.footer{
+    background: var(--color-terminos);
+    padding: 24px;
+    color: var(--color-button-desencriptar);
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/*Responsive design*/
+
+@media (max-width: 1200px){
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .encriptar{
+        width: 100%;
+    }
+    .texto{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+    .terminos{
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+    .terminos p{
+        font-size: 16px;
+    }
+    .botones{
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+    .button__encriptar, 
+    .button__desencriptar{
+        width: 48%;
+        border-radius: 16px;
+    }
+    .button__encriptar:hover, 
+    .button__desencriptar:hover{
+        margin: 0.3%;
+        width: 47.5%;
+        padding: 1.8%;
+    }
+    .encriptado{
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+    }
+    .mensaje-encriptado{
+        width: 100%;
+        top: 5%;
+        text-align: center;
+    }
+    .encriptado img{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
 }
