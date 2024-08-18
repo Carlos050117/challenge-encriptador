@@ -72,7 +72,7 @@ Sección Principal
 .encriptador{
     width: 60%;
     margin: 168px 0px 0px 140px;
-    background: var(--color-background);
+    background: transparent;
 }
 
 .encriptar{
@@ -86,7 +86,7 @@ Sección Principal
     resize: none;
 }
 
-.encriptar::placeholder, :focus{
+.encriptar::placeholder,:focus{
     color: var(--color-texto1)
 }
 
@@ -123,7 +123,7 @@ Sección Principal
     width: 328px;
     height: 67px;
     padding: 24px;
-    font-size: normal;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -302,7 +302,7 @@ Media
 
     .tarjeta{
         width: 665px;
-        height: 300px;
+        height: 120px;
         display: flex;
         justify-content: center;
         align-items: flex-end;

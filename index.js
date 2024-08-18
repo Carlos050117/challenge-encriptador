@@ -1,4 +1,28 @@
-function encriptar() {
+//-----Selección de elementos-----//
+const btnEncriptar = document.querySelector(".btn-encriptar");
+const txtEncriptar = document.querySelector(".encriptar");
+const aviso = document.querySelector(".texto-aviso");
+
+//-----Boton de encriptar-----//
+btnEncriptar.addEventListener("click", e=>{
+    e.preventDefault();
+    let texto = txtEncriptar.value;
+    let txt = texto.normalize("NFD").replace(/[$\.¿\?~!\¡@#%^&*()_|}\{[\]>\<:"`;,\u0300-\u036f']/g, "");
+    
+    if(texto == ""){
+        aviso.style.background = "#oa3871";
+        aviso.style.color = "#ffff";
+        aviso.style.fontWeight = "800";
+        aviso.textContent = "El campo del texto no debe estar vacío";
+
+        setTimeout(()=>{
+            aviso.removeAttribute("style");
+        },1500);
+    }
+})
+
+
+/*function encriptar() {
     let texto = document.getElementById("texto").value;
     let tituloMensaje = document.getElementById("titulo-mensaje");
     let parrafo = document.getElementById("parrafo");
@@ -46,4 +70,4 @@ function desencriptar() {
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
         alert("Debes ingresar algún texto");
     }
-}
+}*/
