@@ -5,7 +5,7 @@ y descifrar mensajes de manera sencilla.
 
 ## Características
 
-- **Interfaz sencilla:** Fácil de usar, ideal para practicar conceptos de programación y criptografía básica.
+- **Encriptación de texto:** Convierte un mensaje claro en un formato encriptado.
 - **Desencriptación de texto:** Restaura un mensaje encriptado a su formato original.
 - **Interfaz sencilla:** Fácil de usar, ideal para practicar conceptos de programación y criptografía básica.
 
