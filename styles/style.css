@@ -314,9 +314,10 @@ Media
         align-items: center;
         width: 100%;
         position: absolute;
-        bottom: 20%;
+        bottom: 40%;
         font-size: 24px;
         font-weight: 700;
+        
     }
 
     .img__muñeco{
