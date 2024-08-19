@@ -9,11 +9,11 @@ Global Css
 :root{
     --Font: #e5e5e5;
     --white: #ffffff;
-    --color-background: #f3f5fc;
-    --color-texto1: #0a3871;
+    --color-background: #BDE8CA;
+    --color-texto1: #379777;
     --color-texto2: #343a40;
     --color-terminos: #495057;
-    --color-button-desencriptar: #d8dfe8;
+    --color-button-desencriptar: #36BA98;
     --RGBA: rgba(0,0,0,0.8);
     --color-shadow-desencriptar: #0a38718a;
 
@@ -129,7 +129,7 @@ Sección Principal
     line-height: 19px;
     text-align: center;
     color: var(--color-button-desencriptar);
-    background: var(--color-texto1);
+    background: var(--color-texto2);
     border: 1px solido var(--color-texto1);
     border-radius: 24px;
     cursor: pointer;
@@ -151,7 +151,7 @@ Sección Principal
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: var(--color-texto1);
+    color: var(--color-texto2);
     background: var(--color-button-desencriptar);
     border: 1px solido var(--color-button-desencriptar);
     border-radius: 24px;
@@ -261,8 +261,8 @@ Sección footer
 .footer{
     margin-top: 15px;
     padding: 10px;
-    border-top: 2px solid var(--Font);
-    color: var(--color-texto1);
+    border-top: 2px solid var(--color-texto2);
+    color: var(--color-texto2);
     text-align: center;
     height: 5px;
     font-size: 20px;
@@ -339,7 +339,7 @@ Media
 @media(max-width: 720px){
     .header__logo{
         width: 100%;
-        background: var(--white);
+        background: var(--color-background);
         padding: 2px;
     }
 
@@ -358,6 +358,6 @@ Media
     }
     
     .copyright{
-        font-size: 20px;
+        font-size: 12px;
     }
 }
