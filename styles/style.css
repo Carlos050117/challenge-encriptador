@@ -14,6 +14,7 @@ Global Css
     --color-texto2: #343a40;
     --color-terminos: #495057;
     --color-button-desencriptar: #36BA98;
+    --color-footer: #0A3871;
     --RGBA: rgba(0,0,0,0.8);
     --color-shadow-desencriptar: #0a38718a;
 
@@ -258,7 +259,7 @@ Sección Principal
 Sección footer
 -----------*/
 
-.footer{
+/*.footer{
     margin-top: 15px;
     padding: 10px;
     border-top: 2px solid var(--color-texto2);
@@ -267,7 +268,25 @@ Sección footer
     height: 5px;
     font-size: 20px;
     font-weight: 700;
+    background-color: var(--color-texto2);
+}*/
+
+.footer{
+    margin-top: 15px;
+    background-color: var(--color-footer);
+    border-top: 2px solid var(--color-texto2);
+    padding: 18px;
+    color: var(--white);
+    text-align: center;
+    font-family: var(--Font);
+    font-size: 20px;
+    font-weight: 700;
 }
+
+.copyright{
+    background: transparent;
+}
+
 
 /*-----------
 Media
@@ -358,6 +377,6 @@ Media
     }
     
     .copyright{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
