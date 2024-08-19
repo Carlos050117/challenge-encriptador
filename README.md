@@ -5,7 +5,7 @@ y descifrar mensajes de manera sencilla.
 
 ## Características
 
-- **Interfaz sencilla:** Fácil de usar, ideal para practicar conceptos de programación y criptografía básica.Fácil de usar, ideal para practicar conceptos de programación y criptografía básica.
+- **Interfaz sencilla:** Fácil de usar, ideal para practicar conceptos de programación y criptografía básica.
 - **Desencriptación de texto:** Restaura un mensaje encriptado a su formato original.
 - **Interfaz sencilla:** Fácil de usar, ideal para practicar conceptos de programación y criptografía básica.
 
