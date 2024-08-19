@@ -1,6 +1,6 @@
 # Descripción
 
-Este proyecto es un encriptador de texto desarrollado como parte de un desafío del curso de programador junior de *Oracle Next Education*. El objetivo de este proyecto es permitir a los usuarios cifrar 
+Este proyecto es un encriptador de texto desarrollado como parte de un desafío del curso de programador junior de **Oracle Next Education**. El objetivo de este proyecto es permitir a los usuarios cifrar 
 y descifrar mensajes de manera sencilla.
 
 ## Características
